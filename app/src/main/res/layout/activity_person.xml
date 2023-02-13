@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/adult_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="어른                       0명"
+            android:textColor="#000000"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/plus1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="50sp"
+            android:layout_weight="1"
+            android:backgroundTint="#C0C0C0"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/minus1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:layout_weight="1"
+            android:backgroundTint="#C0C0C0"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/children_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="어린이                   0명"
+            android:textColor="#000000"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/plus2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="50sp"
+            android:layout_weight="1"
+            android:backgroundTint="#C0C0C0"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/minus2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:layout_weight="1"
+            android:backgroundTint="#C0C0C0"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/baby_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="유아                       0명"
+            android:textColor="#000000"
+            android:textSize="45sp" />
+
+        <Button
+            android:id="@+id/plus3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="50sp"
+            android:layout_weight="1"
+            android:backgroundTint="#C0C0C0"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/minus3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="85sp"
+            android:layout_weight="1"
+            android:backgroundTint="#C0C0C0"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="150sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/finish_btn"
+            android:layout_width="750sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          접수하기          "
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

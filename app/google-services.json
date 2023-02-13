@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438107420995",
+    "project_id": "damsanlogin-20ea0",
+    "storage_bucket": "damsanlogin-20ea0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438107420995:android:61cdb0ec8e4bf696f997f6",
+        "android_client_info": {
+          "package_name": "kr.ac.mjc.damsan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438107420995-3d5li9vv4kpgoj2rj1p5klmjuq3umgbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI0Nyd8cPmbCE94FXZhUBvMmtDLUZdfBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438107420995-3d5li9vv4kpgoj2rj1p5klmjuq3umgbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
